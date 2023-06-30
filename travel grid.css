@@ -1,0 +1,240 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    height: 80px;
+    /* border: 2px solid black; */
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: 1.5fr 4.5fr 3.5fr;
+    /* padding: 20px; */
+
+}
+
+.logo {
+    /* border: 2px solid gold; */
+    /* justify-content: center; */
+    align-self: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.items {
+    /* border: 2px solid lightsalmon; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.i {
+    /* border: 2px solid green; */
+    display: grid;
+    place-items: center;
+}
+
+.conloginfo {
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns:2.5fr 1fr 1fr;
+    place-items: center;
+}
+.phonenum{
+    border-right: 2px solid gray;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.login{
+    padding-left: 0px;
+}
+.signup{
+    padding-right: 45px;
+}
+.listing{
+    position: relative;
+}
+.insidelisting{
+    position: absolute;
+    /* border: 2px solid black; */
+    top: 90px;
+    background: white;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+
+}
+.listinginfo{
+    list-style: none;
+    width: 170px;
+}
+li{
+    padding: 20px;
+    border-bottom: 1px solid gray;
+   
+}
+.i{
+    color: black;
+}
+
+.i:hover a,i{
+    color: blue;
+}
+
+.listing:hover .insidelisting{
+    opacity: 1;
+    visibility: visible;
+    top: 80px;
+    color: blue;
+}
+
+.tours{
+    position: relative;
+}
+.intours{
+    position: absolute;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+}
+.tours:hover .insidelisting{
+    opacity: 1;
+    visibility: visible;
+    top: 80px;
+    color: blue;
+}
+.pages{
+    position: relative;
+}
+.p{
+    position: absolute;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.pages:hover .insidelisting{
+    opacity: 1;
+    visibility: visible;
+    top: 80px;
+    color: blue;
+}
+.destination{
+    position: relative;
+}
+.indestination{
+    position: absolute;
+    border-top: 1px solid gray;
+    left:-386px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    visibility: hidden;
+    opacity: 0;
+}
+.destination:hover .insidelisting{
+    opacity: 1;
+    visibility: visible;
+    top: 80px;
+    color: blue;
+}
+.ul{
+    padding: 10px;
+}
+.destinationimg{
+    background: url(indestination.jpg);
+    background-size: 100% 100%;
+    border-right: 50px solid white;
+    /* padding: auto; */
+    margin: auto;
+    width: 200px;
+    height: 300px;
+}
+
+.img {
+    height: 500px;
+    border: 2px solid gray;
+    background-image: url(tour2.jpg);
+    background-size: 100% 100%;
+    display: grid;
+    place-items: center;
+    
+}
+.textimg{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+
+.imginfo{
+   
+    color: white;
+    font-size: 50px;
+}
+.buy{
+    font-size: 17px;
+    padding: 13px;
+    padding-left:40px ;
+    padding-right: 40px;
+    background: white;
+    border: none;
+}
+
+.footer {
+    /* border: 2px solid red; */
+    height: 80px;
+    display: grid;
+    justify-content: center;
+    transform: translate(0px, -45px);
+}
+
+.infooter {
+    /* border: 2px solid blue; */
+    border-bottom: 1.5px solid gray;
+    border-radius: 5px;
+    background: white;
+    height: 80px;
+    width: 90vw;
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 2.5fr 2fr 2fr 2fr 1.5fr;
+    font-size: 18px;
+    
+}
+
+.m {
+    border-right: 1px solid gray;
+    height: 80px;
+    padding-left: 20px;
+    display: grid;
+    align-items: center;
+}
+
+.search {
+    border-right: none;
+    background: blue;
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+
+.m i {
+    /* display: inline; */
+    margin-left: 10px;
+}
+.infooter i:first-child span{
+    color: blue ;
+}
+i{
+    color: black;
+}
+li:hover{
+    /* list-style: disc; */
+    font-size: 17px;
+    color: blue;
+}
